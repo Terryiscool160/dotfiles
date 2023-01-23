@@ -8,7 +8,7 @@ all:
 
 	cp -f ./.xinitrc ~/.xinitrc
 
-	feh --bg-scale ./Background.png
+	feh --bg-scale ./bin/Background.png
 
 clean:
 	rm -rf ./dwm

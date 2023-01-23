@@ -5,7 +5,8 @@ all:
 	cp ./st_config.h ./st/config.h
 
 	cp ./dwm_config.h ./dwm/config.h
-
+	
+	cp -r -f ./bin ~/
 	cp -f ./.xinitrc ~/.xinitrc
 
 	feh --bg-scale ./bin/Background.png

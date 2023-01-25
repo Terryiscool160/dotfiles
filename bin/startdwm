@@ -27,7 +27,7 @@ done &
 exec ~/bin/pipewire &
 
 # background
-feh --bg-scale ./Background.png
+feh --bg-scale ~/bin/Background.png
 
 # start dwm
 while true; do
